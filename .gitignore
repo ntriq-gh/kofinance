@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+.env
+BUSINESS_PLAN.md
+sdk/.venv/
+sdk/dist/
+sdk/build/
+sdk/*.egg-info/
+.DS_Store
