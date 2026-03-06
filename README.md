@@ -66,16 +66,26 @@ GET /kofinance/api/v1/stocks/{symbol}/disclosures     공시 + AI 요약
 | 대체 데이터 | ❌ | ✅ 특허/소송/정책 (Phase 2) |
 | 설치 | `pip install pykrx` | `pip install kofinance` |
 
-## 무료 사용
+## 시작하기
+
+1. **API 키 발급**: [ntriq.co.kr](https://ntriq.co.kr) 에서 무료 발급
+2. **SDK 설치**: `pip install kofinance`
+3. **데이터 조회**: 위 코드 예시 참고
 
 - 일 1,000건 API 호출 무료
 - 신용카드 불필요
-- API 키 발급: [ntriq.co.kr](https://ntriq.co.kr)
 
 ## 문서
 
 - [API 문서](https://ntriq.co.kr/kofinance/docs)
-- [마이그레이션 가이드 (pykrx → KoFinance)](docs/migration-guide.md)
+- [마이그레이션 가이드 (pykrx → KoFinance)](content/migration-guide.md)
+- [삼성전자 재무 분석 예제 (Jupyter)](content/examples/samsung-financial-analysis.ipynb)
+
+## 문의
+
+- **이메일**: support@ntriq.co.kr
+- **GitHub Issues**: [이슈 등록](https://github.com/ntriq-gh/kofinance/issues)
+- **API 키 발급 / 기술 지원 / Enterprise 문의** 모두 이메일로 연락주세요.
 
 ## 데이터 출처
 
